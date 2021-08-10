@@ -1,0 +1,19 @@
+header {
+  font-size: 3em;
+}
+
+h6 {
+  font-size: .5em;
+}
+
+.profile-picture img {
+height: 220px;
+}
+
+.correct {
+  color: greenyellow;
+}
+
+.incorrect {
+  color: red;
+}
