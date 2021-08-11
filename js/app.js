@@ -178,7 +178,7 @@ case 4:
 case 5:
   alert(score + '/7. wow. im impressed.');
   break;
-case 6: 
+case 6:
   alert(score + '/7. No way you got the number correct.');
   break;
 case 7:
