@@ -1,6 +1,6 @@
 'use strict';
 
-// console.log('hello world');
+console.log('hello world');
 
 
 let userName = prompt('hello! my name is Jacob Gregor, welcome to my site. What is your name?');
