@@ -11,6 +11,8 @@ Links and Resources
 Images Used Links
 -> Picture of myself during a fishing trip at Twin Lakes near Winthrop Washington.
 (Image is from my library).
+-> Site Map for Lab-03
+(img/Site-Map Lab-03.png)
 
 
 submission PR
