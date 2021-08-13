@@ -1,7 +1,12 @@
 'use strict';
+// Tasks to complete;
+//  - create a function for questions 1-5;
+//  - edit HTML page for a more functional website;
+//  - CSS styling to Image;
+//  - CSS styling to sections;
+//  - CSS styling to Webpage in general;
 
 let userName = prompt('hello! my name is Jacob Gregor, welcome to my site. What is your name?');
-
 let score = 0;
 
 function scoreTracker(){
@@ -163,21 +168,25 @@ function scoreRetrieve() {
     break;
   }
 }
+// Alert the USER to your webpage;
 alert('Hi ' + userName + '.' + ' Before I tell you a little about me lets have some fun and see if you cant guess a little first!');
-
+// functions to run questions (1-5);
 question1();
 question2();
 question3();
 question4();
 question5();
-
+// Alert; transition to 'guess my number';
 alert('I want to play a game...');
-
+// Run question 6;
 question6();
+// Pulls hobbies[] and runs Question 7;
 let hobbiesR = question7();
-
+// Alert User of correct answers to Question 7;
 alert('My hobbies are '+ hobbiesR[0]+' '+hobbiesR[1]+' and '+hobbiesR[2]+'.');
+// Runs score and relays via alert;
 scoreRetrieve();
+// close alert;
 alert('Thanks for playing along ' + userName + ' read on if you care to learn more! Cheers. ');
 
 
