@@ -88,13 +88,13 @@ function question5(){
   }
 }
 function question6(){
-  let secretNumber = 52;
-  let attempt = 0;
+  let secretNumber = Math.floor(Math.random() * 100)+1;
+  let attempt = 4;
   let numGuess = null;
-  while (attempt <= 4 && numGuess !== 52) {
+  while (attempt > 0 && numGuess !== secretNumber) {
     let numGuess = parseInt(prompt('Im thinking of a number between 1 - 100, what is my number?'));
-    if (attempt === 4) {
-      alert('you are out of guesses');
+    if (attempt === 1) {
+      alert('you are out of guesses the correct answer was ' + secretNumber);
       break;
     }
     if (numGuess === 52) {
@@ -108,7 +108,7 @@ function question6(){
     if (numGuess > secretNumber) {
       alert('Too High!');
     }
-    attempt++;
+    attempt--;
   }
 }
 function question7(){
@@ -170,23 +170,23 @@ function scoreRetrieve() {
 }
 // Alert the USER to your webpage;
 alert('Hi ' + userName + '.' + ' Before I tell you a little about me lets have some fun and see if you cant guess a little first!');
-// functions to run questions (1-5);
+// // functions to run questions (1-5);
 question1();
 question2();
 question3();
 question4();
 question5();
-// Alert; transition to 'guess my number';
+// // Alert; transition to 'guess my number';
 alert('I want to play a game...');
 // Run question 6;
 question6();
 // Pulls hobbies[] and runs Question 7;
 let hobbiesR = question7();
-// Alert User of correct answers to Question 7;
+// // Alert User of correct answers to Question 7;
 alert('My hobbies are '+ hobbiesR[0]+' '+hobbiesR[1]+' and '+hobbiesR[2]+'.');
-// Runs score and relays via alert;
+// // Runs score and relays via alert;
 scoreRetrieve();
-// close alert;
+// // close alert;
 alert('Thanks for playing along ' + userName + ' read on if you care to learn more! Cheers. ');
 
 
