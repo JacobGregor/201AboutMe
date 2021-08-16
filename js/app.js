@@ -187,7 +187,7 @@ alert('My hobbies are '+ hobbiesR[0]+' '+hobbiesR[1]+' and '+hobbiesR[2]+'.');
 // // Runs score and relays via alert;
 scoreRetrieve();
 // // close alert;
-alert('Thanks for playing along ' + userName + ' read on if you care to learn more! Cheers. ');
+alert('Thanks for playing along ' + userName + ',' + ' read on if you care to learn more! Cheers. ');
 
 
 
